@@ -1,0 +1,166 @@
+
+body{
+    position: absolute;
+    background: #3E3E3E;
+}
+
+button{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+
+    background: #0a0a0a; 
+    border: 1px solid #222222;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #EEEEEE;
+}
+button:hover{
+    box-shadow: 0 0 18px 0 rgba(179, 28, 28, 0.315);
+}
+button:active{
+    box-shadow: 0 0 18px 0 rgba(214, 207, 207, 0.315);
+    background-color: rgb(71, 39, 39);
+}
+
+#numb{
+    background-color: rgb(107, 67, 67);
+}
+
+.calculator{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    
+    background: #222222;
+    position: absolute;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+    
+  }
+
+  
+.display {
+position: absolute;
+width: 330px;
+height: 119px;
+left: 10px;
+top: 16px;
+border: none;
+
+background: #4A4A4A;
+border-radius: 10px;
+
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+color: #EEEEEE;
+}
+
+.firstLine{
+    /* border-style: solid; */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 310px;
+    height: 35px;
+    text-align: end;
+    font-size: 32px;
+    color: rgb(199, 199, 199);;
+    -webkit-touch-callout: text; /* iOS Safari */
+    -webkit-user-select: text;   /* Chrome/Safari/Opera */
+    -khtml-user-select: text;    /* Konqueror */
+    -moz-user-select: text;      /* Firefox */
+    -ms-user-select: text;       /* Internet Explorer/Edge */
+    user-select: text;
+}
+
+.secondLine{
+    /* border-style: solid; */
+    position: absolute;
+    top: 60px;
+    overflow-y: auto;
+    right: 4px;
+    width: 310px;
+    height: 45px;
+    text-align: end;
+    font-size: 40px;
+    color: whitesmoke;
+    overflow-y: auto;
+    -webkit-touch-callout: text; /* iOS Safari */
+    -webkit-user-select: text;   /* Chrome/Safari/Opera */
+    -khtml-user-select: text;    /* Konqueror */
+    -moz-user-select: text;      /* Firefox */
+    -ms-user-select: text;       /* Internet Explorer/Edge */
+    user-select: text;
+}
+
+
+
+
+
+  .Div1 { left: 10px;  top: 151px;}
+  .Div6 { left: 10px;  top: 218px;}
+  .Div11 { left: 10px;  top: 285px;}
+  .Div16 { left: 10px;  top: 364px;}
+  .Div21 { left: 10px; top: 431px;}
+  .Div26 { left: 10px; top: 498px;}
+  .Div32 { left: 79px; top: 565px;}
+
+  .Div2 { left: 79px;  top: 151px;}
+  .Div7 { left: 79px;  top: 218px;}
+  .Div12 { left: 79px;  top: 285px;}
+  .Div17 { left: 79px; top: 364px;}
+  .Div22 { left: 79px; top: 431px;}
+  .Div27 { left: 79px; top: 498px;}
+  .Div33 { left: 149px; top: 565px;}
+
+  .Div3 { left: 149px;  top: 151px;}
+  .Div8 { left: 149px;  top: 218px;}
+  .Div13 { left: 149px;  top: 285px;}
+  .Div18 { left: 149px; top: 364px;}
+  .Div23 { left: 149px; top: 431px;}
+  .Div28 { left: 149px; top: 498px;}
+  .Div31 { left: 10px; top: 565px;}
+
+  .Div4 { left: 218px;  top: 151px;}
+  .Div9 { left: 218px;  top: 218px;}
+  .Div14 { left: 218px;  top: 285px;}
+  .Div19 { left: 218px; top: 364px;}
+  .Div24 { left: 218px; top: 431px;}
+  .Div29 { left: 218px; top: 498px;}
+
+  .Div5 { left: 288px;  top: 151px;}
+  .Div10 { left: 288px;  top: 218px;}
+  .Div15 { left: 288px;  top: 285px;}
+  .Div20 { left: 288px; top: 364px;}
+  .Div25 { left: 288px; top: 431px;}
+  .Div30 { left: 288px; top: 498px;}
+  .Div34{
+    position: absolute;
+    width: 132px;
+    height: 62px;
+    left: 218px;
+    top: 565px;
+  }
+
